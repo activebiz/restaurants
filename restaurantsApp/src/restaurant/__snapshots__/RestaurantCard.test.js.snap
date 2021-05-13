@@ -123,7 +123,7 @@ exports[`RestaurantCard renders correctly 1`] = `
                   }
                   testID="iconIcon"
                 >
-                  
+                  
                 </Text>
               </View>
             </View>
@@ -147,7 +147,13 @@ exports[`RestaurantCard renders correctly 1`] = `
         }
       }
     >
-      <View>
+      <View
+        style={
+          Object {
+            "marginRight": 50,
+          }
+        }
+      >
         <Text />
         <Text />
         <Text />

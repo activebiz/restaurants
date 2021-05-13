@@ -1,7 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Address renders correctly 1`] = `
-<View>
+<View
+  style={
+    Object {
+      "marginRight": 50,
+    }
+  }
+>
   <Text />
   <Text />
   <Text />
