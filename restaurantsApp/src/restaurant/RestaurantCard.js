@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {StyleSheet, View, Linking, Alert} from 'react-native';
 import {Card} from 'react-native-elements';
 import {Chip} from 'react-native-elements';
@@ -60,6 +61,20 @@ const RestaurantCard = props => {
       </View>
     </Card>
   );
+};
+
+RestaurantCard.propTypes = {
+  name: PropTypes.string,
+  url: PropTypes.string,
+  geo: PropTypes.shape({
+    address: PropTypes.shape({}),
+  }),
+};
+
+RestaurantCard.defaultProps = {
+  name: undefined,
+  url: undefined,
+  geo: undefined,
 };
 
 export default RestaurantCard;

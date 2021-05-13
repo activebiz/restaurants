@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {View, Text, StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
@@ -16,6 +17,18 @@ const Address = props => {
       <Text>{postalCode}</Text>
     </View>
   );
+};
+
+Address.propTypes = {
+  streetAddress: PropTypes.string,
+  addressLocality: PropTypes.string,
+  postalCode: PropTypes.string,
+};
+
+Address.defaultProps = {
+  streetAddress: undefined,
+  addressLocality: undefined,
+  postalCode: undefined,
 };
 
 export default Address;
