@@ -7,6 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
+    "coverage": "jest --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .js ."
   },
@@ -33,5 +34,10 @@
   },
   "jest": {
     "preset": "react-native"
-  } 
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint && npm run test"
+    }
+  }  
 }

@@ -33,6 +33,8 @@ To run tests:
 
 `npm run test`
 
-Note: 
-- husky is used to enforce eslint during `git push`
+Notes: 
+- Swipe down to refresh the restaurant list
 - run `npm run lint:fix` to auto fix (as much as possible) lint errors
+- run `npm run coverage` to get code coverage
+- husky is used to enforce eslint during `git push`
