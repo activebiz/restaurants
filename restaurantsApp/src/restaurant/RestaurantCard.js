@@ -39,7 +39,7 @@ const RestaurantCard = props => {
         <Chip
           title={name}
           icon={{
-            name: 'place',
+            name: 'restaurant',
             type: 'MaterialIcons',
             size: 24,
             color: 'white',

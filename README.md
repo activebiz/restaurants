@@ -1,4 +1,9 @@
 # Restaurants App
+- Simple app listing out restaurants; powered by React-Native 
+- Swipe down to refresh the restaurant list.
+- run `npm run lint:fix` to auto fix lint errors (as much as possible).
+- run `npm run coverage` to get code coverage.
+- husky is used to enforce eslint during `git push`.
 
 ![alt text](home.png "Restaurants App")
 
@@ -32,9 +37,3 @@ To run tests:
 `cd restaurantsApp`
 
 `npm run test`
-
-Notes: 
-- Swipe down to refresh the restaurant list
-- run `npm run lint:fix` to auto fix (as much as possible) lint errors
-- run `npm run coverage` to get code coverage
-- husky is used to enforce eslint during `git push`
