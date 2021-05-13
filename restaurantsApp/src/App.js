@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import RestaurantList from './restaurant/RestaurantList';
+import RestaurantList from './components/RestaurantList';
 
 const styles = StyleSheet.create({
   container: {
