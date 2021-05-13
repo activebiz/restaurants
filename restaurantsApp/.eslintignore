@@ -1,0 +1,4 @@
+jest.config.js
+metro.config.js
+babel.config.js
+*.test.js
